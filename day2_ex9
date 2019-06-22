@@ -1,0 +1,18 @@
+//PF-Exer-9
+
+noOfFlightsTakeOff=100
+noOfFlightsLanded=110
+seatingCapacityTakeOff=150
+seatingCapacityLanded=185
+totalCookies=0
+
+//Write your code here
+//Populate the variable: totalCookies
+peopleintakeoff=noOfFlightsTakeOff*seatingCapacityTakeOff
+peopleinlanding=noOfFlightsLanded*(seatingCapacityLanded/2)
+total=peopleinlanding+peopleintakeoff
+totalCookies=2*total
+//Do not modify the below print statement for verification to work
+console.log(totalCookies)
+
+
